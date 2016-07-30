@@ -17,6 +17,6 @@ config.env = 'local';
 config.server.ip = '127.0.0.1';
 config.server.port = '5000';
 // Mongo
-config.mongo.connecturl = "mongodb://127.0.0.1:27017/geek";
+config.mongo.connecturl = "mongodb://127.0.0.1:27017/priceWatch";
     
 console.log("ENV_MONGO: " + config.mongo.connecturl);
